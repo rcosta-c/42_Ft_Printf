@@ -3,25 +3,24 @@
 ![C](https://img.shields.io/badge/C-Language-blue?style=for-the-badge)
 ![42 School](https://img.shields.io/badge/42-Porto-black?style=for-the-badge)
 
-## 📝 Descrição
+## 📝 Description
 
-O projeto **Ft_printf** consiste na recriação da função `printf` da biblioteca padrão C, permitindo a formatação e exibição de strings, números, e outros tipos de dados. 
-Este projeto é uma excelente oportunidade para trabalhar com funções variádicas e melhorar a tua compreensão de como funciona a saída formatada no C.
+The Ft_printf project consists of a recreation of the printf function from the C standard library, allowing the formatting and display of strings, numbers, and other types of data. This project is an excellent opportunity to work with variadic functions and improve your understanding of how formatted output works in C.
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-- Manipulação de diferentes tipos de dados:
-  - Caracteres (`%c`)
-  - Strings (`%s`)
-  - Inteiros (`%d`, `%i`)
-  - Decimais (`%u`)
-  - Números hexadecimais (`%x`, `%X`)
-  - Ponteiros (`%p`)
-  - Percentagem (`%%`)
-- Suporte para flags de formatação, como largura mínima e precisão.
-- Modularidade para facilitar a expansão futura.
+Manipulation of different data types:
+Characters (%c)
+Strings (%s)
+Integers (%d, %i)
+Decimals (%u)
+Hexadecimal numbers (%x, %X)
+Pointers (%p)
+Percentage (%%)
+Support for formatting flags, such as minimum width and precision.
+Modularity to facilitate future expansion.
 
-## 📂 Estrutura de Arquivos
+## 📂 File Structure
 
 ft_printchar.c	    ft_printnbr.c  ft_printx_lbase.c  
 ft_printf.c	    ft_printptr.c  ft_printx_ubase.c  
